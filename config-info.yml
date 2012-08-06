@@ -1,0 +1,11 @@
+# Example configuration options that can be placed in your main SiriProxy config.yml
+
+############################################
+# NOTICE: Modifying these options in this 
+#         file has no effect. You must put 
+#         them in SiriProxy's ~/.siriproxy/config.yml
+############################################
+
+    - name: 'TheWeatherChannel'
+      git: 'git://github.com/Ponyboy47/siriproxy-theweatherchannel.git'
+      weatherKey: 'WEATHER.COM_API_KEY' #Go to www.weather.com/services/xmloap.html and register to get a "Magic Key"
